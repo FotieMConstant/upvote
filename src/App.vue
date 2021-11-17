@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <!-- <div id="nav">
       <router-link :to="`/${$i18n.locale}`">Home</router-link> |
       <router-link :to="`/${$i18n.locale}/about`">About</router-link>
-    </div>
+    </div> -->
     <router-view />
   </div>
 </template>
